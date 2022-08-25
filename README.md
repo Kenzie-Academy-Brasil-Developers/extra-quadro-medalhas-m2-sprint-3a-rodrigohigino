@@ -38,7 +38,7 @@ Para a construção dessa aplicação, você terá algumas tarefas a cumprir. Vo
 > 
 > Por ser uma parte Bônus dessa entrega, ela não é **Obrigatória**. Sendo assim, é aceitável que tenha um nível de dificuldade maior.
 
-Para melhorar seu conhecimento e aprendizagem com o POO, que tal refatorar essa entrega e utilizar seus conceitos, criando assim classes que possam ser reutilizadas?
+Para melhorar seu conhecimento e aprendizagem com o POO, que tal refatorar essa entrega e utilizar seus conceitos, criando assim classes que possam ser reutilizadas.
 
 Iniciar do zero seria a melhor forma, caso ainda não tenha começado, mas aqui estão algumas dicas:
 
@@ -48,9 +48,4 @@ Iniciar do zero seria a melhor forma, caso ainda não tenha começado, mas aqui 
 
 ## Entrega
 
-Faça o push do código para o seu repositório GitHub e implemente-o
-GitHub pages. Coloque seu repositório como **Privado** e adicione em
-**Configurações > Colaboradores e Times** o time **team-m2-correcoes**. No
-Canvas, por favor, envie sua url do GitHub Pages: (ex:
-https://nomedeusuario.github.io/oregon-trail-inheritance) e envie o link
-do seu repositório nos comentários.
+Faça o push do código para o seu repositório GitHub e implemente-o GitHub pages. No Canvas, por favor, envie sua url do GitHub Pages: (ex: https://nomerandomico.github.io/cartas-flexbox) e envie o link do seu repositório nos comentários. Seu projeto deverá ficar Internal.

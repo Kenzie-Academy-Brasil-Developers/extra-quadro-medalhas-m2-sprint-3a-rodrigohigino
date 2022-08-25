@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-bbr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Extra: Quadro de Medalhas</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="./index.html">
+                <img src="./src/img/logo.svg" alt="logo">
+            </a>
+        </header>
+
+        <main>
+            <section class="search-data">
+                <div class="search-area">
+                    <p>Pesquisa</p>
+                    <div class="search-area__btn-ipt">
+                        <div class="btn-ipt__input-span">
+                            <input type="text" placeholder="&#xf002;  Pesquisar por País" id="search-box">
+                            <span>Ex: Brasil</span>
+                        </div>
+                        <button id="search-button">Pesquisar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="country-data">
+                <div class="table">
+                    <table id="countries-data">
+                        <tr id="table-header">
+                            <th class="position">
+                                <button id="sort-by-position">
+                                    Posição
+                                    <i class="fas fa-chevron-up"></i>
+                                </button>
+                            </th>
+                            <th class="country">
+                                País
+                            </th>
+                            <th class="medal_gold">
+                                <button id="sort-by-gold">
+                                    Ouro
+                                    <i class="fas fa-chevron-up"></i>
+                                </button>
+                            </th>
+                            <th class="medal_silver">
+                                <button id="sort-by-silver">
+                                    Prata
+                                    <i class="fas fa-chevron-up"></i>
+                                </button>
+
+                            </th>
+                            <th class="medal_bronze">
+                                <button id="sort-by-bronze">
+                                    Bronze
+                                    <i class="fas fa-chevron-up"></i>
+                                </button>
+                            </th>
+                            <th class="total">
+                                Total
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <script src="https://kit.fontawesome.com/dc30acdb83.js" crossorigin="anonymous"></script>
+        <script type="module" src="./src/js/script.js"></script>
+    </body>
+
+</html>

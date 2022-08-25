@@ -1,0 +1,286 @@
+header {
+    height: 77px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #364FC7;
+}
+
+main>section {
+    padding: 0 15px;
+}
+
+.search-data {
+    display: flex;
+    justify-content: center;
+
+    background-color: #E9ECEF;
+    padding-top: 32px;
+    padding-bottom: 91px;
+}
+
+.search-area {
+    width: 100%;
+    max-width: 1380px;
+}
+
+.search-area p {
+    display: flex;
+    flex-direction: column;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.btn-ipt__input-span {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.search-area__btn-ipt {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-box {
+    background-color: #F5F5F5;
+    border: none;
+
+    border-radius: 8px;
+
+    height: 40px;
+
+    font-family: Inter, FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #828282;
+
+    margin-bottom: 10px;
+    padding: 0 15px;
+
+    box-sizing: border-box;
+
+}
+
+.search-area span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #868E96;
+
+    margin-bottom: 10px;
+}
+
+#search-button {
+    height: 40px;
+    width: 100%;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #364FC7;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    transition: 0.5s background-color;
+}
+
+#search-button:hover {
+    background-color: #3f59d8;
+
+    transition: 0.5s background-color;
+}
+
+.country-data {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    overflow: scroll;
+    position: relative;
+    top: -70px;
+
+    width: 100%;
+    max-width: 1380px;
+}
+
+#countries-data {
+    table-layout: fixed;
+}
+
+#table-header {
+    width: 100%;
+    background-color: #364FC7;
+}
+
+tr {
+    display: flex;
+}
+
+#table-header th,
+#countries-data td {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 210px;
+    height: 70px;
+}
+
+.countryFlagName {
+    display: flex;
+    width: 70%;
+}
+
+.flag-img {
+    Width: 28px;
+    Height: 20px;
+
+    border-radius: 2px;
+
+    margin-right: 17px;
+}
+
+#table-header th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+#table-header>th>button {
+    height: 40px;
+    width: 126px;
+
+    background-color: #4058CA;
+    border: none;
+    border-radius: 5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+
+    transition: 0.5s background-color;
+}
+
+#table-header>th>button:hover {
+    background-color: #4e67e2;
+    transition: 0.5s background-color;
+}
+
+#table-header>th>button>i {
+    margin-left: 25px;
+}
+
+#countries-data th:not(:last-child) {
+    border-right: 2px solid #5E72D2;
+    ;
+}
+
+#countries-data td {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #878787;
+}
+
+#countries-data td:not(:last-child) {
+    border-right: 2px solid #E9ECEF;
+    ;
+}
+
+#countries-data tr:not(:first-child):nth-of-type(odd) {
+    background: #F8F9FA;
+}
+
+@media (min-width: 768px) {
+    .search-area__btn-ipt {
+        flex-direction: row;
+    }
+
+    .btn-ipt__input-span {
+        max-width: 301px;
+        margin-right: 8px;
+    }
+
+    #search-box {
+        height: 40px;
+        width: 100%;
+    }
+
+    #search-button {
+        height: 40px;
+        width: 100%;
+        max-width: 101px;
+    }
+
+    .countries-data {
+        display: flex;
+        justify-content: center;
+    }
+
+    #table-header th.country,
+    #countries-data td.country {
+        width: 455px;
+    }
+
+    #table-header th.country {
+        justify-content: start;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    #countries-data td.country {
+        padding: 0 30px;
+        box-sizing: border-box;
+        justify-content: start;
+    }
+
+    .countryFlagName {
+        width: 100%;
+    }
+
+    #table-header th.total,
+    #countries-data td.total {
+        width: 75px;
+    }
+}
